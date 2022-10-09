@@ -7,11 +7,11 @@ num_b = gets.chomp.to_i
 print "Please Enter either [add, subtract, multiply, or divide]: "
 calculation_type = gets.chomp
 
-#Logic determines whether to Add, Subtract, Multiply, or Divide
-#   > Logic will always Subtract the largest number from the smallest number
+# The Logic determines whether to Add, Subtract, Multiply, or Divide
+#   > The Logic will always Subtract the largest number from the smallest number
 #   > Divide will ask the user to select how they want to divide
 #       > There is a bug here. Can you find it?
-#   > Last, logic will prompt the user that their selection was invalid if it isn't a valid option
+#   > Last, the logic will prompt the user that their selection was invalid if it isn't a valid option
 if calculation_type.downcase == "add"
     puts num_a + num_b
 elsif calculation_type.downcase == "subtract"

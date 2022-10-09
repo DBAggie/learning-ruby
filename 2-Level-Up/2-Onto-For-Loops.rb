@@ -26,12 +26,20 @@ puts "" # <== 1.) Can you explain why I had to do this for readability in the co
 
 puts "The Next Loop is: "
 # We also have a next thing? WTF
-i = 20
+j = 20
 loop do
-  i -= 1
+  j -= 1
   next if i % 2 > 0 # <== Next will only run the code below when it evaluates to true
-  print "#{i}"
-  break if i <= 0
+  print "#{j}"
+  break if j <= 0
+end
+
+#Just some reminders
+k = 0
+loop do
+  k += 1
+  print "Ruby!"
+  break if k > 29
 end
 
 # Random infinite Loop
