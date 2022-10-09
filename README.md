@@ -26,8 +26,8 @@ I am learning Ruby. This is just some files I made while learning
 ## To-Do:
 - 1-Super-Beginner
 - 2-Level-Up
-    -6-Histogram
-        -Add logic to print a true histogram
+    - 6-Histogram
+        - Add logic to print a true histogram
 
 ## Coming Soon
 - Blocks & Methods (Sunday - 10/16)

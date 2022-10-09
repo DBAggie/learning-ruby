@@ -47,8 +47,8 @@ string_split = my_string_array["Poem"].split(", ") # <== This is an array now, n
 string_split.each {|line| puts line}
 puts ""
 
+# Codecademy example
 friends = ["Milhouse", "Ralph", "Nelson", "Otto"]
-
 family = { "Homer" => "dad",
   "Marge" => "mom",
   "Lisa" => "sister",
