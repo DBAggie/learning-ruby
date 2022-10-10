@@ -25,7 +25,9 @@ In your terminal, run a file using the below code example. You will see the outp
 Remember you can use the Tab key to autocomplete the name for you.
 
 For instance: ruby ./1-Sup <== At this point you can click Tab and it will complete for you
+
 Next you will see: ./1-Super-Beginner/1-Va  <== Let's finish up here and use tab complete to get our filename
+
 This will give you: ././1-Super-Beginner/1-Vars-Ifs-Operators.rb
 
 Voila! You are running the files. Create your own while you are at it!
