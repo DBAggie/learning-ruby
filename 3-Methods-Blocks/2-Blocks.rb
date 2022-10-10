@@ -20,7 +20,3 @@ end
 
 # Another example
 [1, 2, 3, 4, 5].each { |i| puts 5*i }
-
-# Random Method Sort
-my_array = [5, 15, 3, 100, 42, 20, 13]
-puts my_array.sort!
