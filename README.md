@@ -5,9 +5,7 @@ I am learning Ruby. This is just some files I made while learning
 Clone the repository using [Git](https://git-scm.com/downloads)
 
 ```bash
-{
     git clone https://github.com/DBAggie/learning-ruby.git
-}
 ```
 
 Install [Ruby](https://www.ruby-lang.org/en/)
@@ -22,9 +20,7 @@ In your terminal, run a file using the below code example. You will see the outp
 
 #### How to run a file
 ```bash
-{
     ruby ./1-Super-Beginner/1-Vars-Ifs-Operators.rb
-}
 ```
 Remember you can use the Tab key to autocomplete the name for you.
 
