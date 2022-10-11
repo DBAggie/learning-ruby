@@ -58,6 +58,12 @@ Voila! You are running the files. Create your own while you are at it!
         - Blocks
         - Sorting
         - Refactor of existing applications
+- Hashes & Symbols
+    - Contains examples for Hashes using Symbols
+        - Hashes Extended
+            - Symbols
+        - Hash Benchmark Program
+        - Hash Methods
 
 ## To-Do:
 - 1-Super-Beginner
