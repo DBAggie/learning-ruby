@@ -32,15 +32,23 @@ I could go through there and comment the code like so:
 # Method that asks for input from the user
 # The method will check the input against our favorite team
 # and output the approrpriate result
-# then we prompt.. Yeah I am not going any further..you get the idea.
 def example_method
+    # Prompt the user for their baseball team name
     print "Please enter a baseball team name: "
+    # Variable to store the users baseball team name
     team_name = gets.chomp
+
+    #Logic to determine if it's the same as my favorite baseball team
+    # First check if the users team name in lowercase is the same as my team name in lowercase
     if team_name.downcase == "rangers"
+        # Out my sanity levels as I continue to write comments
         puts "You chose correctly"
+    # Else we take me out behind the barn and put me down
     else
+        # Outputting the shame I brought on my family for doing this in code
         puts "Wow...really. Just...please leave"
     end
+    # Next we print out the party they will have when my comments are finally removed..You get it
     print "Would you like to enter another team name?: "
     answer = gets.chomp
     if answer.downcase == "no"
