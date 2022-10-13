@@ -41,7 +41,7 @@ def example_method
     #Logic to determine if it's the same as my favorite baseball team
     # First check if the users team name in lowercase is the same as my team name in lowercase
     if team_name.downcase == "rangers"
-        # Out my sanity levels as I continue to write comments
+        # Output my sanity levels as I continue to write comments
         puts "You chose correctly"
     # Else we take me out behind the barn and put me down
     else
