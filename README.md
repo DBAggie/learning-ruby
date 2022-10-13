@@ -106,15 +106,22 @@ Install [Ruby](https://www.ruby-lang.org/en/)
 Open the project folder in your preferred code editor.
 I will be using VSCode for my examples.
 
-Once you have opened the folder in your code editor bring up your preferred code editor.
+Once you have opened the folder in your code editor bring up your preferred terminal.
 Hotkey for this in VSCode is CTRL+~ or you can click on the Terminal option in the top left.
 
 In your terminal, run a file using the below code example. You will see the output appear in the console. Some programs will require user input. Please submit either a ticket or Pull Request for any updates to make this more Beginner friendly.
 
 #### How to run a file
+Linux
 ```bash
-    ruby ./1-Super-Beginner/1-Vars-Ifs-Operators.rb
+ruby ./1-Super-Beginner/1-Vars-Ifs-Operators.rb
 ```
+
+PowerShell/Command Prompt
+```powershell
+ruby .\1-Super-Beginner\1-Vars-Ifs-Operators.rb
+```
+
 Remember you can use the Tab key to autocomplete the name for you.
 
 For instance: ruby ./1-Sup <== At this point you can click Tab and it will complete for you
