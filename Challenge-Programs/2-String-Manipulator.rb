@@ -6,3 +6,37 @@
 # Actually, just go to this link. It has everything: https://ruby-doc.org/core-3.1.2/String.html
 
 # Your code goes below:
+def string_manipulator
+    print "Enter a string: "
+    my_string = gets.chomp
+    puts ""
+    print "Options:
+    1 - Lowercase
+    2 - Uppercase
+    3 - Reverse
+    4 - Swap Case
+    How would you like to manipulate your string? "
+    my_option = gets.chomp.to_i
+
+    if my_option.is_a? Integer
+        case my_option
+            when 1
+                puts my_string.downcase
+            when 2
+                puts my_string.upcase
+            when 3
+                puts my_string.reverse
+            when 4
+                puts my_string.swapcase
+            else
+                puts "That is an invalid option"
+        end
+    end
+
+    print "\nWould you like to do it again? (Y/N): "
+    run_again = gets.chomp
+    return if run_again.downcase == 'n'
+    string_manipulator()
+end
+
+string_manipulator()
