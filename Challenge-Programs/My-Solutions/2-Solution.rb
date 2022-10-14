@@ -6,7 +6,7 @@
 # Actually, just go to this link. It has everything: https://ruby-doc.org/core-3.1.2/String.html
 
 # Your code goes below:
-
+system("cls")
 def string_manipulator
     print "Enter a string: "
     my_string = gets.chomp
@@ -16,6 +16,7 @@ def string_manipulator
     2 - Uppercase
     3 - Reverse
     4 - Swap Case
+    5 - Hexidecimal
     How would you like to manipulate your string? "
     my_option = gets.chomp.to_i
 
@@ -29,6 +30,12 @@ def string_manipulator
                 puts my_string.reverse
             when 4
                 puts my_string.swapcase
+            when 5
+                string_list = my_string.split(" ")
+                letter_list = []
+                string_list.each { |word|
+                    current_word = word.chars
+                    current_word.each { |letter| print "#{letter.bytes[0]}(#{letter}) "}}
             else
                 puts "That is an invalid option"
         end
