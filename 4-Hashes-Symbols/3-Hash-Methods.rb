@@ -16,7 +16,7 @@ female_superheros.each { |key, value| puts key.to_s.capitalize} # <== This can b
 puts ""
 # .each_key or .each_value
 puts "Iterate by Key"
-female_superheros.each_key { |key| puts key.to_s.sub("_", " ").capitalize}
+female_superheros.each_key { |key| puts key.to_s.sub("_", " ").capitalize} #.sub() allows you to substitue something for something else
 puts ""
 puts "Iterate by Value"
 female_superheros.each_value { |value| puts value.capitalize}
