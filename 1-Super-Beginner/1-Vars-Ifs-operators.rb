@@ -12,6 +12,7 @@
     It's the whole "EVERYTHING IS AN OBJECT"
       You get an Object, and you get an Object, EVERBODY GETS AN OBJECT!
 =end
+system("cls")
 
 puts "This worked"
 print "This also worked"

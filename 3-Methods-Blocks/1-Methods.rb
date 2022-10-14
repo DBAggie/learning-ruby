@@ -1,5 +1,6 @@
 # Methods seem to be the same as Functions in Javascript
 # Define and add your code in
+system("cls")
 
 def returnString
     puts "This is a string"

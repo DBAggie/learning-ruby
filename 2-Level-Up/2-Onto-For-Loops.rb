@@ -1,4 +1,5 @@
 # For loops will count from 0 to 10
+system("cls")
 
 for num in 0...11 # <== This range is not inclusive
     puts "Exclusive Range is: #{num}"

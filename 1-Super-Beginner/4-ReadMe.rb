@@ -1,3 +1,5 @@
+system("cls")
+
 def example_method
     print "Please enter a baseball team name: "
     team_name = gets.chomp

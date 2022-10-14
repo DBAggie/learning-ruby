@@ -1,3 +1,4 @@
+system("cls")
 superhero_genders = {
     batman: "Male",
     superman: "Male",

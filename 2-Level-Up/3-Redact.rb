@@ -4,6 +4,7 @@
 # I have intentionally added a bug in the program
 # It won't stop the program from running but it causes an issue
 # Can you spot the issue and find the bug?
+system("cls")
 continue = true
 
 while continue == true

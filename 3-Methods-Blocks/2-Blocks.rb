@@ -9,6 +9,7 @@
 #   {
 #     Code Here
 #   }
+system("cls")
 
 # do method
 1.times do

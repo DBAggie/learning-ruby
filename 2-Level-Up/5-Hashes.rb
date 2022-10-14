@@ -1,6 +1,6 @@
 # Hashes are similar to objects in Javascript
 # You create a Key Value pair
-
+system("cls")
 # Decalare a Hash Literal
 pets = {
     "Dumbo" => "elephant",

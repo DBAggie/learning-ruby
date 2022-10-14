@@ -1,3 +1,4 @@
+system("cls")
 # Get 2 numbers from a user
 # Get what calculation user wants to perform
 print "Please Enter a number: "

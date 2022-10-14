@@ -1,6 +1,6 @@
 # This lesson had some random sorting methods thrown in
 # Here are some examples
-
+system("cls")
 
 # Random Method Sort
 my_array = [5, 15, 3, 100, 42, 20, 13]

@@ -1,5 +1,5 @@
 # Assignments can be made only if the variable is nil
-
+system("cls")
 # ||= Doesn't work here
 print "Enter a number: "
 num = gets.chomp

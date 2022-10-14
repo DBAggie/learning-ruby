@@ -1,4 +1,5 @@
 # One Liner Mania
+system("cls")
 
 variable = true
 

@@ -1,5 +1,6 @@
 # Codecademy Program
 # I will be adding in additional logic to make it a true histogram
+system("cls")
 
 puts "Enter a string:"
 text = gets.chomp

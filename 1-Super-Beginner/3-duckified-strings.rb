@@ -1,6 +1,6 @@
 # This is one of the lessons from Codecademy
 # I felt it deserved a file to explain a few things I encountered
-
+system("cls")
 
 print "Please enter a string: "
 user_input = gets.chomp #<== This was 

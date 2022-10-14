@@ -1,5 +1,5 @@
 #Each loop counts from 0 to 10
-
+system("cls")
 # It's a while loop
 # There isn't much to say about it
 # Don't create an infinite loop and you're fine

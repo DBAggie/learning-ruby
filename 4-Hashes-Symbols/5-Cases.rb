@@ -1,5 +1,6 @@
 # Cases
 # Add more to this file. You can also take a stab at asking the user to add a superhero
+system("cls")
 superheros = {
     :batman => "I am Batman!",
     :superman => "Faster than a speeding bullet!",

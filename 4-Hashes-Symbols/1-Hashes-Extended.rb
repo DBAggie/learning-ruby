@@ -1,5 +1,6 @@
 # Remember Hashes are just key value pair objects
 #
+system("cls")
 
 puts "Define Hash literal"
 # Define Literal
