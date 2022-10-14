@@ -4,6 +4,9 @@ I am learning Ruby. This is just some files I made while learning
 The intention behind this project is to provide informational programs that can give you a clear code to output relationship. This is intended to help understand the concept of what is being done and to help reinforce recognizing common pattens. The vast majority of your time spent learning to code and coding itself will be reading code. Half the time I am either reading over code examples within documentation or just reading my own code again because I forgot what the hell I did 3 months ago when I created this monstrosity. You can look either of my current Project Daedalus repos for an example of that. We can create comments to act as notes but, they should only be that..notes. Nothing more. We do not use comments as documentation because it clutters the stuff we actually have to read to truly understand what is happening.
 
 You know..fuck this let's do an example:
+<details>
+  <summary>Click here to read the rant</summary>
+
 
 Let's imagine we have the below ruby program
 ```ruby
@@ -93,6 +96,8 @@ This is minimal commenting in action. It gives you the highlights and you fill i
 You might be thinking to yourself when you get into the programs in this repo *But you do it all the time*. Do as I say. Not as I do. When I write things that aren't learning tools I don't use them to the extent I do here. You will find that I reduce the number of comments you see as you progress through the programs. 
 
 Anyway, comment rant over. 
+</details>
+
 
 The point of this is that there isn't a point. I found it super helpful writing this up as I refer to some of these little code snippet programs every now and then. Play around, look at the examples, and try some of the challenge programs. Just remember, give the challenge an honest shot before you look at what I did. I am not the end all and be all. I am slapping this shit together for fun. don't take anything too seriously here. 
 
@@ -106,7 +111,7 @@ It's Okay to:
 Clone the repository using [Git](https://git-scm.com/downloads)
 
 ```bash
-    git clone https://github.com/DBAggie/learning-ruby.git
+git clone https://github.com/DBAggie/learning-ruby.git
 ```
 
 Install [Ruby](https://www.ruby-lang.org/en/)
@@ -166,14 +171,18 @@ Voila! You are running the files. Create your own while you are at it!
         - Blocks
         - Sorting
         - Refactor of existing applications
-- Hashes & Symbols
+- Hashes, Symbols, & More!
     - Contains examples for Hashes using Symbols
         - Hashes Extended
             - Symbols
         - Hash Benchmark Program
         - Hash Methods
+        - One Liners
+        - Case Statements
+        - Alertnative way to assign variables
 - Challenge Programs
   - Enter a string get a string
+  - String Manipulation
   - More to Come!
 - Coding With Wife
   - Length Converter
@@ -189,7 +198,6 @@ Voila! You are running the files. Create your own while you are at it!
     - 5-Histogram
         - Refactor the Histogram program to use Method or Blocks
 - Challenge Programs
-  - String Manipulation
   - Make a Calculator
   - Calculate a fibonacci sequence
   - Sorting, Sorting, Sorting
