@@ -184,6 +184,8 @@ Voila! You are running the files. Create your own while you are at it!
   - Enter a string get a string
   - String Manipulation
   - More to Come!
+  - Make a Calculator
+  - Calculate a fibonacci sequence
 - Coding With Wife
   - Length Converter
 
@@ -198,8 +200,6 @@ Voila! You are running the files. Create your own while you are at it!
     - 5-Histogram
         - Refactor the Histogram program to use Method or Blocks
 - Challenge Programs
-  - Make a Calculator
-  - Calculate a fibonacci sequence
   - Sorting, Sorting, Sorting
   - Calculate the day someone was born using their age
     - Then do the reverse

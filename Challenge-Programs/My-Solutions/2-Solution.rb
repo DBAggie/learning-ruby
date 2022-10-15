@@ -32,7 +32,6 @@ def string_manipulator
                 puts my_string.swapcase
             when 5
                 string_list = my_string.split(" ")
-                letter_list = []
                 string_list.each { |word|
                     current_word = word.chars
                     current_word.each { |letter| print "#{letter.bytes[0]}(#{letter}) "}}
@@ -46,5 +45,4 @@ def string_manipulator
     return if run_again.downcase == 'n'
     string_manipulator()
 end
-
 string_manipulator()
