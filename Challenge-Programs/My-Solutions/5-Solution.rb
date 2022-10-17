@@ -1,5 +1,6 @@
 # Create a program that takes in an input and then sorts it
 # Hella bug in this right now.
+# If you can find the bug try to fix it!
 
 
 def sorter

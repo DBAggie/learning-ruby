@@ -183,9 +183,10 @@ Voila! You are running the files. Create your own while you are at it!
 - Challenge Programs
   - Enter a string get a string
   - String Manipulation
-  - More to Come!
   - Make a Calculator
   - Calculate a fibonacci sequence
+  - Sorting, Sorting, Sorting! (In-Progress)
+  - More to Come!
 - Coding With Wife
   - Length Converter
 
@@ -200,11 +201,11 @@ Voila! You are running the files. Create your own while you are at it!
     - 5-Histogram
         - Refactor the Histogram program to use Method or Blocks
 - Challenge Programs
-  - Sorting, Sorting, Sorting
   - Calculate the day someone was born using their age
     - Then do the reverse
 
 ## Coming Soon
-- Hashes & Symbols (Sunday - 10/16)
+- Hashes & Symbols - Released!
+- Procs & Lambdas - (Coming 10/22)
 
 ### Good luck have fun!
