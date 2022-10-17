@@ -19,5 +19,6 @@ end
 frequencies.reverse!
 
 frequencies.each do |word, count|
-  puts "#{word} #{count}"
+  count.times { print "|" }
+  puts ""
 end
