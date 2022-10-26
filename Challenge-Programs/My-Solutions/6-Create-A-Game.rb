@@ -27,45 +27,50 @@ $current_player = 1
 $coordinates = [[1, 1], [2, 1], [3, 1], [1, 2], [2, 2], [3, 2], [1, 3], [2, 3], [3, 3]]
 $selections = []
 
-def createGameBoard(obj)
-    divider = "-------------\n"
+def createPlayLine(coor)
     cell_start = "| " 
     cell_end = " "
-    width = 13
-    height = 7
-    count_row = 1
-    for i in 1..7
-        if obj["player_1"].length == 0 && obj["player_2"].length == 0
-            3.times{print "#{cell_start} #{cell_end}"} if i % 2 == 0
-            print "|\n" if i % 2 == 0
-        elsif i % 2 == 0
-            joined_arr = []
-            obj["player_1"].each { |y| joined_arr << y }
-            obj["player_2"].each { |y| joined_arr << y } if obj["player_2"].length >= 1
-            print "#{joined_arr} \n"
-            count_column = 1
-            cell_rem = 3
-            for z in 1..3
-                joined_arr.each do |x|
-                    if x[1] == count_row
-                        if x[0] == count_column
-                            print "#{cell_start}#{x[2]}#{cell_end}"
-                            # print "I should run 1 time #{count_column} "
-                            cell_rem -= 1
-                        end
-                    end
-                end
-                # puts " \n"
+    line = ""
+    count_column = 1
+    for i in 1..3 
+        coor.each do |cell|
+            if cell[0].to_i == i
+                line += cell_start + cell[2] + cell_end
                 count_column += 1
             end
-            if cell_rem > 0
-                cell_rem.times { print "#{cell_start} #{cell_end}" } 
-                # print "I should also run #{cell_rem} times"
-            end
-            print "| \n"
-            count_row += 1
-        else
+        end
+        if count_column == i
+            count_column += 1
+            line += cell_start + " " + cell_end
+        end
+    end
+    line += "|\n"
+    print line
+end
+
+def createGameBoard(obj)
+    system("cls")
+    divider = "-------------\n"
+    # cell_start = "| " 
+    # cell_end = " "
+    count_row = 1
+    joined_arr = []
+    obj["player_1"].each { |y| joined_arr << y }
+    obj["player_2"].each { |y| joined_arr << y } if obj["player_2"].length >= 1
+    for i in 1..7
+        if obj["player_1"].length == 0 && obj["player_2"].length == 0
+            puts "I ran for some reason"
+        elsif i % 2 != 0
             print divider if i % 2 != 0
+        else
+            row_select = joined_arr.select{ |x| x[1] == count_row}
+            if row_select.length > 0
+                createPlayLine(row_select)
+            else
+                3.times{print "#{cell_start} #{cell_end}"}
+                print "|\n"
+            end
+            count_row += 1
         end
     end
     puts ""
@@ -88,7 +93,6 @@ def test
             $current_player -= 1 if $current_player % 2 == 0
         end
     else
-        system("cls")
         puts "That options has already been selected\n"
         test()
     end
