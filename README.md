@@ -180,6 +180,14 @@ Voila! You are running the files. Create your own while you are at it!
         - One Liners
         - Case Statements
         - Alertnative way to assign variables
+- Procs & Lambdas
+  - Blocks Extended
+  - Procs examples
+  - Procs w/ symbols
+  - Lambdas
+- Object Oriented Programming
+  - Classes
+    - Examples of how you can use classes
 - Challenge Programs
   - Enter a string get a string
   - String Manipulation
@@ -203,9 +211,12 @@ Voila! You are running the files. Create your own while you are at it!
 - Challenge Programs
   - Calculate the day someone was born using their age
     - Then do the reverse
+  - Create a game
+    - Mine is Tick Tac Toe
 
 ## Coming Soon
 - Hashes & Symbols - Released!
-- Procs & Lambdas - (Coming 10/22)
+- Procs & Lambdas - Released! v0.5
+- Object Oriented Programming - Released! (ish) v0.5
 
 ### Good luck have fun!
