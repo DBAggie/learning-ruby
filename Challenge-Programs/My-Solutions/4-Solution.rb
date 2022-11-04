@@ -2,6 +2,7 @@
 # I used these links:
 # https://en.wikipedia.org/wiki/Fibonacci_number
 # https://www.techtarget.com/whatis/definition/Fibonacci-sequence
+system("cls")
 
 num_array = [0, 1]
 for i in 1..8 do

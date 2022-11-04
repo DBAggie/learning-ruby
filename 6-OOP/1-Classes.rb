@@ -8,6 +8,7 @@
 
 # The class keyword is used to define a class in Ruby. The class name should always begin with a 
 # capital letter.
+
 system("cls")
 
 class Vehicle
